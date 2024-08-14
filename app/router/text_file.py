@@ -3,21 +3,28 @@ from fastapi import File,UploadFile
 import os
 import shutil
 from langchain.docstore.document import Document
-from langchain_openai import OpenAIEmbeddings
-from dotenv import load_dotenv
+#from langchain_openai import OpenAIEmbeddings
+from dotenv import load_dotenv,find_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
+from langchain_huggingface.embeddings import HuggingFaceEndpointEmbeddings
+from langchain_community.embeddings import OllamaEmbeddings
+
 
 load_dotenv()
 text_router = APIRouter(prefix="/text")
 
 TXT_PATH = "txt_files"
 OPENAI_DB_PATH = "./openai_db"
-
+LLAMA_DB_PATH = "./llama_db"
 docs=[]
 
-openai_emb = OpenAIEmbeddings()
-
+#emb = HuggingFaceEndpointEmbeddings()
+llama_emb =OllamaEmbeddings(
+    model="mxbai-embed-large",# 임베딩 모델 지정(ollama 홈페이지에서 찾음)
+    num_gpu=1,
+    show_progress=True
+)
 if not os.path.exists(TXT_PATH):
     os.mkdir(TXT_PATH)
 # txt 파일을 삽입하면 자동으로 벡터화 임베딩 되도록 만들기
@@ -49,8 +56,9 @@ def text_vectorize():
 
     openai_vectorstore = Chroma.from_documents(
     docs_spliter,
-    openai_emb,
-    persist_directory=OPENAI_DB_PATH
+    llama_emb,
+    #persist_directory=OPENAI_DB_PATH
+    persist_directory=LLAMA_DB_PATH
     )
 
     return all_files,docs_spliter[:10]

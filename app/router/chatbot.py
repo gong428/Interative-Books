@@ -8,11 +8,16 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 #from langchain_community.document_loaders import 
 from langchain.memory import ConversationBufferMemory
-
+from langchain_huggingface.embeddings import HuggingFaceEndpointEmbeddings
+from langchain_community.embeddings import OllamaEmbeddings
 OPENAI_DB_PATH = "./openai_db"
 
-openai_emb = OpenAIEmbeddings()
-
+#emb = HuggingFaceEndpointEmbeddings()
+llama_emb = OllamaEmbeddings(
+    model="mxbai-embed-large",# 임베딩 모델 지정(ollama 홈페이지에서 찾음)
+    num_gpu=1,
+    show_progress=True
+)
 class Prompt(BaseModel):
     text: str
 
@@ -24,17 +29,27 @@ prompt_dic['wether'] = "{text}의 날씨를 알려줘"
 prompt_dic['books'] = "{text}라는 책에 주인공을 알려줘"
 prompt_dic['system'] = '너는 {text}로 말하는 ai야'
 
-# 이 내용 system으로 변경하기
-system_prompt="너는 책의 내용에 대해서 설명해주고 등장인물의 성격을 분석하며 등장인물들 사이에 대화에서 감정을 분석하는 어시스턴트야"
-
 template_vec = """
-    너는 책의 내용에 대해서 설명해주고 등장인물의 성격을 분석하며 등장인물들 사이에 대화에서 감정을 분석하는 어시스턴트야
     아래의 책에 대한 내용은 검색된 Context 기반으로 Question 에 한국어로 대답을 하도록 해
     Question : {text} 
     Context: {context} 
     Answer:
 """
-
+system_prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system","""너는 영문의 책은 한국어로 번역하고 책의 내용을 문단 별로 읽어 주는 어시스턴트야.
+            그리고 책의 주인공에 대해서 설명해주고 등장인물의 성격을 분석하며 등장인물들 사이에 대화에서 감정을 분석하는 어시스턴트야.
+            처음 시작은 책의 주인공에 행적을 분석해서 성격을 분석해서 한마디로 출력해줘. 
+            이후에는 사용자가 입력하는 chapter 부터 책의 내용을 문단별로 출력해줘.
+            '>'가 입력되면 책의 다음 문단을 출력해줘. """
+        ),
+        MessagesPlaceholder(variable_name="history"),# 이전 대화 내용
+        (
+            "human","{input}"
+        )
+    ]
+)
 memory_store = {}
 
 chatbot_router = APIRouter(prefix="/chatbot")
@@ -70,12 +85,16 @@ def chatbot_model4(user_id : str, prompt_model: Prompt):
 
     openai_db = Chroma(
         persist_directory=OPENAI_DB_PATH,
-        embedding_function=openai_emb
+        embedding_function=emb
     )
     openai_retriever = openai_db.as_retriever(
         search_kwargs={"k":5}
     )
     conversation_history = memory.load_memory_variables({})
+
+    
+
+
     context = openai_retriever.invoke(prompt_model.text)
     custom_prompt = ChatPromptTemplate.from_template(template_vec)
     # 필요한 모든 변수를 템플릿에 전달
@@ -86,6 +105,7 @@ def chatbot_model4(user_id : str, prompt_model: Prompt):
     )
     rag_chain = (
         {"context":openai_retriever | format_docs,"text":RunnablePassthrough()}
+         | system_prompt
          | custom_prompt
          | model
          | StrOutputParser()
