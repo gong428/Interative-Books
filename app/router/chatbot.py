@@ -13,11 +13,8 @@ from langchain_community.embeddings import OllamaEmbeddings
 OPENAI_DB_PATH = "./openai_db"
 
 #emb = HuggingFaceEndpointEmbeddings()
-llama_emb = OllamaEmbeddings(
-    model="mxbai-embed-large",# 임베딩 모델 지정(ollama 홈페이지에서 찾음)
-    num_gpu=1,
-    show_progress=True
-)
+#llama_emb = OllamaEmbeddings(model="mxbai-embed-large",# 임베딩 모델 지정(ollama 홈페이지에서 찾음)num_gpu=1,show_progress=True)
+emb = OpenAIEmbeddings()
 class Prompt(BaseModel):
     text: str
 

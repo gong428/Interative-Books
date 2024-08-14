@@ -1,6 +1,6 @@
 from fastapi import FastAPI,APIRouter
-from router.chatbot import chatbot_router
-from router.text_file import text_router
+from app.router.chatbot import chatbot_router
+from app.router.text_file import text_router
 app = FastAPI()
 
 @app.get("/")
