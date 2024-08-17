@@ -1,69 +1,76 @@
-"M. Myriel"의 대화문은 다음과 같습니다:
+txt 파일에서 "M. Myriel"의 대화문은 다음과 같습니다:
 
-1. “Sire,” said M. Myriel, “you are looking at a good man, and I at a great man. Each of us can profit by it.”"Monsieur the director of the hospital,” said he to him, “how many sick people have you at the present moment?”
+1. "Sire," said M. Myriel, "you are looking at a good man, and I at a great man. Each of us can profit by it.”"M. Myriel"의 대화문은 다음과 같습니다:
 
-“That was the number which I counted,” said the Bishop.
+1. “Monsieur the director of the hospital,” said he to him, “how many sick people have you at the present moment?”
 
-“The beds,” pursued the director, “are very much crowded against each other.”
+2. “That was the number which I counted,” said the Bishop.
 
-“That is what I observed.”
+3. “That is what I observed.”
 
-“The halls are nothing but rooms, and it is with difficulty that the air can be changed in them.”
+4. “So it seems to me.”
 
-“So it seems to me.”
+5. “That was what I said to myself.”
 
-“And then, when there is a ray of sun, the garden is very small for the convalescents.”
+6. “That is the thought which occurred to me.”
 
-“That was what I said to myself.”
+7. “What would you have, Monseigneur?” said the director. “One must resign one’s self.”
 
-“In case of epidemics,—we have had the typhus fever this year; we had the sweating sickness two years ago, and a hundred patients at times,—we know not what to do.”
+8. “Monsieur,” said he, “how many beds do you think this hall alone would hold?”
 
-“That is the thought which occurred to me.”
+9. “It would hold full twenty beds,” said he, as though speaking to himself. Then, raising his voice:— “Hold, Monsieur the director of the hospital, I will tell you something. There is evidently a mistake here. There are thirty-six of you, in five or six small rooms. There are three of us here, and we have room for sixty. There is some mistake, I tell you; you have my house, and I have yours. Give me back my house; you are at home here.”
 
-“What would you have, Monseigneur?” said the director. “One must resign one’s self.”
+10. “And still I am quite cramped with it all!”
 
-“Monsieur,” said he, “how many beds do you think this hall alone would hold?”
-
-“It would hold full twenty beds,” said he, as though speaking to himself. Then, raising his voice:—
-
-“Hold, Monsieur the director of the hospital, I will tell you something. There is evidently a mistake here. There are thirty-six of you, in five or six small rooms. There are three of us here, and we have room for sixty. There is some mistake, I tell you; you have my house, and I have yours. Give me back my house; you are at home here.”
-
-“And still I am quite cramped with it all!”
-
-“Hold!” cried the Bishop, “you are quite right, Madame Magloire.”
-
-“I like that name,” said he. “Bienvenu makes up for the Monseigneur.”죄송합니다, 이 텍스트에서 "M. Myriel"이라는 주인공의 대화문은 없습니다. 다른 주인공의 대화문을 찾아드릴까요?"M. Myriel"이 말한 모든 대화문은 다음과 같습니다:
+11. “Hold!” cried the Bishop, “you are quite right, Madame Magloire.” And he made his demand.
+죄송합니다, 제공된 텍스트에서 "M. Myriel"이라는 이름을 가진 주인공이 대화문을 가지고 있지 않습니다. 다른 주인공의 대화문을 원하시면 말씀해주세요."M. Myriel"의 대화문은 다음과 같습니다:
 
 1. “Madame Magloire,” said he, “fetch me a chair. My greatness [grandeur] does not reach as far as that shelf.”
+
 2. “I am thinking,” replied the Bishop, “of a singular remark, which is to be found, I believe, in St. Augustine,—‘Place your hopes in the man from whom you do not inherit.’”
-3. “There is M. Géborand purchasing paradise for a sou.”
-4. “You must give me something, M. le Marquis.”
-5. “Give them to me,” replied the Bishop.
-6. “Where are this man and woman to be tried?”
-7. “And where will the advocate of the crown be tried?”
-8. “Monsieur le Curé is right: it is not his place; it is mine.”
-9. “God raises from the dead him whom man slays; he whom his brothers have rejected finds his Father once more. Pray, believe, enter into life: the Father is there.”
-10. “I have just officiated pontifically.”
-11. “I did not think that it was so monstrous. It is wrong to become absorbed in the divine law to such a degree as not to perceive human law. Death belongs to God alone. By what right do men touch that unknown thing?”
-12. “Have a care of the manner in which you turn towards the dead. Think not of that which perishes. Gaze steadily. You will perceive the living light of your well-beloved dead in the depths of heaven.”죄송합니다, 하지만 제공된 텍스트에는 "M. Myriel"의 대화문이 포함되어 있지 않습니다.죄송합니다, 그러나 제공된 텍스트에 "M. Myriel"이라는 캐릭터의 대화문이 없습니다.죄송합니다, 텍스트 파일에 "M. Myriel"이라는 주인공의 대화문이 없습니다. 다시 시도해주세요.M. Myriel의 대화문은 다음과 같습니다:
 
-1. "And you are right,” replied the Bishop. “As one makes one’s philosophy, so one lies on it. You are on the bed of purple, senator.”
+3. “What a stout back Death has!” he exclaimed. “What a strange burden of titles is cheerfully imposed on him, and how much wit must men have, in order thus to press the tomb into the service of vanity!”
+
+4. “There is M. Géborand purchasing paradise for a sou.”
+
+5. “You must give me something, M. le Marquis.” The Marquis turned round and answered dryly, “I have poor people of my own, Monseigneur.” “Give them to me,” replied the Bishop.
+
+6. “Where are this man and woman to be tried?” “At the Court of Assizes.” He went on, “And where will the advocate of the crown be tried?”
+
+7. “Monsieur le Curé is right: it is not his place; it is mine.”
+
+8. “God raises from the dead him whom man slays; he whom his brothers have rejected finds his Father once more. Pray, believe, enter into life: the Father is there.”
+
+9. “I have just officiated pontifically.”
+
+10. “I did not think that it was so monstrous. It is wrong to become absorbed in the divine law to such a degree as not to perceive human law. Death belongs to God alone. By what right do men touch that unknown thing?”
+
+11. “Have a care of the manner in which you turn towards the dead. Think not of that which perishes. Gaze steadily. You will perceive the living light of your well-beloved dead in the depths of heaven.”죄송합니다, 제공된 텍스트에서 "M. Myriel"의 대화문은 발견되지 않았습니다.죄송합니다, 제공된 텍스트에서 "M. Myriel"라는 이름이 언급되지 않았습니다. 따라서 "M. Myriel"의 대화문을 찾을 수 없습니다. 다른 주인공의 대화문이 필요하시다면 알려주세요.죄송합니다. 이 텍스트에서 "M. Myriel"이라는 주인공은 발견되지 않았습니다. 다른 주인공의 대화를 원하신다면 알려주세요."M. Myriel"의 대화문은 다음과 같습니다:
+
+1. “And you are right,” replied the Bishop. “As one makes one’s philosophy, so one lies on it. You are on the bed of purple, senator.”
+
 2. “Good devils even,” said the Bishop.
-3. “Like yourself, Count,” interposed the Bishop.
-4. "That’s talking!” he exclaimed. “What an excellent and really marvellous thing is this materialism! Not every one who wants it can have it. Ah! when one does have it, one is no longer a dupe, one does not stupidly allow one’s self to be exiled like Cato, nor stoned like Stephen, nor burned alive like Jeanne d’Arc. Those who have succeeded in procuring this admirable materialism have the joy of feeling themselves irresponsible, and of thinking that they can devour everything without uneasiness,—places, sinecures, dignities, power, whether well or ill acquired, lucrative recantations, useful treacheries, savory capitulations of conscience,—and that they shall enter the tomb with their digestion accomplished. How agreeable that is! I do not say that with reference to you, senator. Nevertheless, it is impossible for me to refrain from congratulating you. You great lords have, so you say, a philosophy of your own, and for yourselves, which is exquisite, refined, accessible to the rich alone, good for all sauces, and which seasons the voluptuousness of life admirably. This philosophy has been extracted from the depths, and unearthed by special seekers. But you are good-natured princes, and you do not think it a bad thing that belief in the good God should constitute the philosophy of the people, very much as the goose stuffed with chestnuts is the truffled turkey of the poor.”죄송합니다, 주어진 텍스트에서 "M. Myriel"의 대화문은 발견되지 않았습니다."M. Myriel" 또는 "Bishop"의 대화문은 다음과 같습니다:
 
-1. "My name is Bienvenu Myriel."
-2. "I am."
-3. "Something of that sort."
-4. "I am pleased to see that I have been misinformed. You certainly do not seem to me to be ill."
-5. "Yes? ’93!"
-6. "The judge speaks in the name of justice; the priest speaks in the name of pity, which is nothing but a more lofty justice. A thunderbolt should commit no error."
-7. "So be it, sir. But explain to me how my carriage, which is a few paces off behind the trees yonder, how my good table and the moor-hens which I eat on Friday, how my twenty-five thousand francs income, how my palace and my lackeys prove that clemency is not a duty, and that ’93 was not inexorable."
-8. "I thank you."
-9. "Inexorable; yes."
-10. "Mixed joy."
-11. "Progress should believe in God. Good cannot have an impious servitor. He who is an atheist is but a bad leader for the human race."
-12. "This hour is the hour of God. Do you not think that it would be regrettable if we had met in vain?"
-13. "I weep for all."
-14. "Your blessing."
-15. "Oh! oh! that's a coarse color.""M. Myriel"이 직접 말한 대화문은 이 txt 파일에 없습니다.죄송합니다. 제공된 텍스트에서 "M. Myriel"라는 주인공의 대화문이 없습니다.죄송합니다, 제공된 txt 파일에서 "M. Myriel"이라는 주인공의 대화문은 없습니다. 다른 주인공의 대화문을 찾아드릴까요?죄송합니다, 제공된 텍스트 파일에서 "M. Myriel"이라는 주인공의 대화문은 찾을 수 없습니다.
+3. “Like yourself, Count,” interposed the Bishop.
+
+4. "That’s talking!” he exclaimed. “What an excellent and really marvellous thing is this materialism! Not every one who wants it can have it. Ah! when one does have it, one is no longer a dupe, one does not stupidly allow one’s self to be exiled like Cato, nor stoned like Stephen, nor burned alive like Jeanne d’Arc. Those who have succeeded in procuring this admirable materialism have the joy of feeling themselves irresponsible, and of thinking that they can devour everything without uneasiness,—places, sinecures, dignities, power, whether well or ill acquired, lucrative recantations, useful treacheries, savory capitulations of conscience,—and that they shall enter the tomb with their digestion accomplished. How agreeable that is! I do not say that with reference to you, senator. Nevertheless, it is impossible for me to refrain from congratulating you. You great lords have, so you say, a philosophy of your own, and for yourselves, which is exquisite, refined, accessible to the rich alone, good for all sauces, and which seasons the voluptuousness of life admirably. This philosophy has been extracted from the depths, and unearthed by special seekers. But you are good-natured princes, and you do not think it a bad thing that belief in the good God should constitute the philosophy of the people, very much as the goose stuffed with chestnuts is the truffled turkey of the poor.”죄송합니다, 이 텍스트에서 "M. Myriel"이라는 주인공의 대화문이 없습니다."M. Myriel"의 모든 대화문은 다음과 같습니다:
+
+1. “There is a soul yonder which is lonely.”
+2. “I owe him a visit.”
+3. “My name is Bienvenu Myriel.”
+4. “I am.”
+5. “Something of that sort.”
+6. “I am pleased to see that I have been misinformed. You certainly do not seem to me to be ill.”
+7. “Inexorable; yes.”
+8. “Mixed joy.”
+9. “Yes? ’93!”
+10. “The judge speaks in the name of justice; the priest speaks in the name of pity, which is nothing but a more lofty justice. A thunderbolt should commit no error.”
+11. “Louis XVII.?”
+12. “That is true.”
+13. “I weep for all.”
+14. “Progress should believe in God. Good cannot have an impious servitor. He who is an atheist is but a bad leader for the human race.”
+15. “Vermis sum—I am a worm.”
+16. “So be it, sir. But explain to me how my carriage, which is a few paces off behind the trees yonder, how my good table and the moor-hens which I eat on Friday, how my twenty-five thousand francs income, how my palace and my lackeys prove that clemency is not a duty, and that ’93 was not inexorable.”
+17. “Thank you.”
+18. “Your blessing.”
+19. “Oh! oh! that's a coarse color. It is lucky that those who despise it in a cap revere it in a hat.”"M. Myriel"은 이 텍스트에서 대화를 하지 않았습니다.죄송합니다. 제공된 텍스트에서 "M. Myriel"이라는 주인공의 대화문은 없습니다.죄송합니다, 제공된 텍스트에서 "M. Myriel"이라는 주인공의 대화문은 찾을 수 없습니다.죄송합니다. 제공된 텍스트에서 "M. Myriel"이라는 주인공의 대화문은 발견되지 않았습니다.
