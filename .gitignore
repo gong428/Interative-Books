@@ -7,6 +7,6 @@ flagged/
 LLAMA_DB_PATH/
 openai_db/
 save_txt/
-
+conversation_db/
 
 gradio_emb.py
