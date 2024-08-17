@@ -8,5 +8,8 @@ LLAMA_DB_PATH/
 openai_db/
 save_txt/
 conversation_db/
+mp3_raw/
+mp3_make/
+
 
 gradio_emb.py
